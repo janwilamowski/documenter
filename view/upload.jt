@@ -1,0 +1,7 @@
+html
+	head
+		title Let's get started!
+
+	body
+		p Thanks for uploading!
+		a(href='download?path=#{filepath}') Access your file

@@ -1,0 +1,10 @@
+html
+	head
+		title Let's get started!
+
+	body
+		p Hello, #{name}!
+		form(method='POST', action='/upload', enctype='multipart/form-data')
+			input(type='file', name='upload')
+			br
+			input(type='submit', value='Upload')
